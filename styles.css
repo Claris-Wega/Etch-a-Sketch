@@ -4,10 +4,14 @@
     width: 640px;
     height: 640px;
     border: 1px solid #ccc;
+    margin-top: 20px;
 }
 .grid-square {
     width: 40px;
     height: 40px;
     border: 1px solid #eee;
     box-sizing: border-box;
+}
+.grid-square:hovered {
+    background-color: #333;
 }
